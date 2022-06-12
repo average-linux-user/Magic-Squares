@@ -14,5 +14,8 @@ To install tkinter :- `pip install tk`
 
 > Error
 
+![master](Error.png)
 
 > Sucess
+
+![master](Sucess.png)
