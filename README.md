@@ -19,3 +19,5 @@ To install tkinter :- `pip install tk`
 > Sucess
 
 ![master](Sucess.png)
+
+**Note:-** On the screenshots above the inputs were -13 and -12 and using the - before the last digit the - and the number after the - sign may not appear
