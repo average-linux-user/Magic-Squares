@@ -65,10 +65,10 @@ def verify_f():
         s3=int(n7)+int(n8)+int(n9)
         s4=int(n1)+int(n5)+int(n9)
         s5=int(n3)+int(n5)+int(n7)
-        if not s1==num or s2==num or s3==num or s4==num or s5==num:
-            showinfo('Error' , 'Please ensure that the sum of the row, columns and the diagonals is same as the number above')
-        elif s1 and s2 and s3 and s4 and s5 == num:
-            showinfo('Sucess' , 'You succesfully solved the magic square')       
+        if int(s1) and int(s2) and int(s3) and int(s4) and int(s5) == int(num):
+            showinfo('Sucess' , 'You succesfully solved the magic square')    
+        else:
+            showinfo('Error' , 'Please ensure that the sum of the row, columns and the diagonals is same as the number above')    
 #Alocating commands to buttons
 b1.configure(command=play_f)
 b2.configure(command=root.destroy)
